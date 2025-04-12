@@ -16,11 +16,11 @@ const HeroSection = () => {
 
       <div className="flex py-8 gap-24">
         <div className="relative">
-          <div className="rounded-full w-32 h-32 bg-purple-700 blur-2xl absolute z-0"></div>
+          <div className="rounded-full w-40 h-40 bg-purple-700 blur-2xl absolute z-0"></div>
           <img
-            src="src\assets\Me.png"
+            src="src\assets\memoji.png"
             alt="emoji"
-            className="w-42 z-10 relative"
+            className="w-45 z-10 relative"
           />
         </div>
         <div>
