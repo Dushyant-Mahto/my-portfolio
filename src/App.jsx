@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import SkillSections from "./components/SkillSections";
 import Projects from "./components/ProjectSection";
+import Contacts from "./components/Contacts";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <HeroSection />
       <SkillSections />
       <Projects />
+      <Contacts />
     </div>
   );
 };

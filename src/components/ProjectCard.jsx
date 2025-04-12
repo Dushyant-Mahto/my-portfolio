@@ -8,11 +8,16 @@ const ProjectCard = ({ project, reverse }) => {
         reverse ? "md:flex-row-reverse" : ""
       } items-center justify-center mb-16 relative z-10`}
     >
+      <div
+        className={`rounded-full w-100 h-100 bg-purple-900 ${
+          reverse ? "left-1" : "right-0.5"
+        } blur-3xl absolute -z-10`}
+      ></div>
       <div className="md:w-1/2 p-4">
         <img
           src={project.image}
           alt={project.title}
-          className="rounded-lg shadow-lg border border-gray-700 h-105 w-200"
+          className="rounded-lg shadow-lg border border-gray-700 h-105 w-200 "
         />
       </div>
       <div
