@@ -1,0 +1,18 @@
+export const skillIcons = [
+  { icon: "src/assets/skills/react.png", label: "React" },
+  { icon: "src/assets/skills/html.png", label: "HTML5" },
+  { icon: "src/assets/skills/css.png", label: "CSS3" },
+  { icon: "src/assets/skills/javascript.png", label: "JavaScript" },
+  { icon: "src/assets/skills/tailwind-css.png", label: "Tailwind CSS" },
+  { icon: "src/assets/skills/bootstrap.png", label: "Bootstrap" },
+  { icon: "src/assets/skills/nodejs.png", label: "Node.js" },
+  { icon: "src/assets/skills/express-js.png", label: "Express.js" },
+  { icon: "src/assets/skills/mongo-db.png", label: "MongoDB" },
+  { icon: "src/assets/skills/firebase.png", label: "Firebase" },
+  { icon: "src/assets/skills/figma.png", label: "Figma" },
+  { icon: "src/assets/skills/github.png", label: "GitHub" },
+  { icon: "src/assets/skills/git.png", label: "Git" },
+  { icon: "src/assets/skills/postman.png", label: "Postman" },
+  { icon: "src/assets/skills/Vercel.png", label: "Vercel" },
+  { icon: "src/assets/skills/npm.png", label: "NPM" },
+];

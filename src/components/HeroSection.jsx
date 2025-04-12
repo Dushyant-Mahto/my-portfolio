@@ -1,6 +1,9 @@
 const HeroSection = () => {
   return (
-    <div className="text-white flex flex-col items-center justify-center min-h-[20vh] px-4 pt-24 pb-8 text-left">
+    <div
+      className="text-white flex flex-col items-center justify-center min-h-screen px-4 py-4
+     text-left"
+    >
       <div className="relative">
         <p className="text-sm mb-2 text-purple-300">
           Hello! I am <span className="text-purple-500">Dushyant Mahto</span>
