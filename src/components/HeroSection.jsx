@@ -1,25 +1,26 @@
 const HeroSection = () => {
   return (
     <div
-      className="text-white flex flex-col items-center justify-center min-h-screen px-4 py-4
-     text-left"
+      className="text-white flex flex-col items-center justify-center min-h-screen px-4 py-4 text-center md:text-left"
       id="home"
     >
-      <div className="relative">
+      <div className="relative mb-4">
         <p className="text-sm mb-2 text-purple-300">
           Hello! I am <span className="text-purple-500">Dushyant Mahto</span>
         </p>
         <img
           src="src/assets/Arrow.png"
-          className="absolute -bottom-23 -left-37 w-40"
+          className="hidden md:block absolute -bottom-23 -left-37 w-40"
+          alt="Arrow"
         />
       </div>
 
-      <div className="flex py-8 gap-24">
+      {/* Responsive flex direction for small screens */}
+      <div className="flex flex-col md:flex-row py-8 gap-12 md:gap-24 items-center">
         <div className="relative">
           <div className="rounded-full w-40 h-40 bg-purple-700 blur-2xl absolute z-0"></div>
           <img
-            src="src\assets\memoji.png"
+            src="src/assets/memoji.png"
             alt="emoji"
             className="w-45 z-10 relative"
           />
