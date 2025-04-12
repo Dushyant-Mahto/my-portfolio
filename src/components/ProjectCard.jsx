@@ -5,7 +5,7 @@ const ProjectCard = ({ project, reverse }) => {
         ? "translate(50px, -20px)"
         : !reverse && window.innerWidth >= 768
         ? "translate(-50px, -20px)"
-        : "translate(0px, 0px)",
+        : "translate(0px,0px)",
   };
 
   return (
@@ -24,7 +24,7 @@ const ProjectCard = ({ project, reverse }) => {
         <img
           src={project.image}
           alt={project.title}
-          className="rounded-lg shadow-lg border border-gray-700 w-full h-auto max-h-[300px] object-cover"
+          className="rounded-lg shadow-lg border border-gray-700 h-90 w-150 sm:w-full sm:h-auto sm:max-h-[300px]"
         />
       </div>
 

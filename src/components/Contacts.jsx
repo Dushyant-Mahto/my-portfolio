@@ -6,9 +6,6 @@ const Contacts = () => {
   return (
     <div
       id="contact"
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
       className="text-white w-full text-center px-4 sm:px-6 md:px-10 py-16 bg-[#140028]"
     >
       <h2 className="text-3xl sm:text-4xl font-bold mb-4">Let's Connect 🤝</h2>
