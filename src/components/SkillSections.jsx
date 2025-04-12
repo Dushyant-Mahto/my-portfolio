@@ -1,4 +1,4 @@
-import { skillIcons } from "../icons/db.js";
+import { skillIcons } from "../data/icons.js";
 
 const SkillSections = () => {
   return (
