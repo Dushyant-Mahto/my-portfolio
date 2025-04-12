@@ -3,6 +3,7 @@ const HeroSection = () => {
     <div
       className="text-white flex flex-col items-center justify-center min-h-screen px-4 py-4
      text-left"
+      id="home"
     >
       <div className="relative">
         <p className="text-sm mb-2 text-purple-300">
